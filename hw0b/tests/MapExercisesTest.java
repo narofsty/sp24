@@ -46,7 +46,7 @@ public class MapExercisesTest {
         List<String> lst = List.of(
             "hug", "hug", "hug", "hug",
             "shreyas", "shreyas", "shreyas",
-            "ergun", "ergun",
+            "ergun", "ergun","ergun",
             "cs61b"
         );
 
@@ -55,7 +55,7 @@ public class MapExercisesTest {
         assertThat(map).containsExactly(
             "hug", 4,
             "shreyas", 3,
-            "ergun", 2,
+            "ergun", 3,
             "cs61b", 1
         );
     }
